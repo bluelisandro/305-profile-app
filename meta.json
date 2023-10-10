@@ -21,8 +21,8 @@
                     "createdAt": "2023-09-26T03:30:37.922Z",
                     "updatedAt": "2023-09-26T03:30:37.922Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9e5309e1206232a03a5ef/projects/6509c3a59fb7fe7616745eab/assets/6512505daaa9eab8048884b3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230926%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230926T033038Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=ba95138bdbabc914c1c35e0b38a1128edbd94ad135f7f6f5d55e730194ad08013f8a5769075e1641ea901af994f80dc73f48f86c9accecfd2866376ac3c12fc75c88d7328e6104d9f7e0ca42e04b932991fd559887f2d226883932fcd0f75bfdf05472c1576009d26b892a313dbf590c45708083cbf738b55dd6753febfa580390a2005d207c4c57e02a850954bb7dd276af3f5c36a266eb5f6ba836a1176be8a6e3910b485de4df834af5fb2fec64cc29d39f43ce852de6d84ec14fbb2e064214c07bf7326047c0addc9172f714bb2cc2ebd4d01d253467617e70c1271399e6f1d65109d4c042866223172509182e3200d37f84fe0949bf840ab5c4f6ac594d",
-                    "signedUrlExpirationTime": 1695871838326
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9e5309e1206232a03a5ef/projects/6509c3a59fb7fe7616745eab/assets/6512505daaa9eab8048884b3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231010%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231010T025326Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3dc088799fc057f429e28b1fca677da47ca8e828ee0062d1ba1320b343009f4502467e4d8ca28984a99b4ae1de32ef81e950fe7c5b1e726d831533608bc316eec4795f485a54056928ae9d5158a6c04911dea72d99eaf1f1a8d408b08c9301c49b8832a9712eea9cb74b9dae19c8755b6bb9927a6c80e6f96165b1fd665c5e1cc02922bcc83110faafa3c6679c2a289c2982cebfe71dd2171d30c543af66dd41d1ae99bdccc986708b1da09a0252999bf3cc02ea5a9de8e6a4b9e8f5fa0fdda1c1c58f7e827dc51823cb4113a651ee698b2e3f9d1f5fbc0be091c1adcb1b176ca907c84452ae2183b1e590c838b0aaa7930ab7c3753ed76b9fa40a5075240b70",
+                    "signedUrlExpirationTime": 1697079206721
                 }
             },
             "backendUpgradeVersion": 21,
@@ -47,8 +47,12 @@
             ],
             "components": {
                 "children": [
-                    "Screen1.6d174260-2c0b-4ab7-8a2a-810d267e1247",
-                    "Screen2.0ede0772-f09d-4647-bc51-655ec20af25e"
+                    {
+                        "id": "6d174260-2c0b-4ab7-8a2a-810d267e1247"
+                    },
+                    {
+                        "id": "0ede0772-f09d-4647-bc51-655ec20af25e"
+                    }
                 ]
             },
             "figmaComponents": {},
@@ -143,7 +147,7 @@
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -152,7 +156,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "1",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
