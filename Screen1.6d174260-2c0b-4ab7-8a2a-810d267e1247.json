@@ -55,6 +55,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3877622515999414~3332838445",
+                "AdUnitID_iOS": "",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "6d174260-2c0b-4ab7-8a2a-810d267e1247",
+                "Y": 632.2666625976562,
+                "RelativeX": 0,
+                "RelativeY": 632,
+                "position": "absolute",
+                "edgeOffsets": 632.2666625976562,
+                "style": {
+                    "position": "absolute",
+                    "left": "16.133333333333333%",
+                    "top": "89.69515181374156%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "154cb897-72f9-4cda-a6d8-fa8f6e21a0b0",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -114,10 +144,10 @@
                 "Height": 79,
                 "Width": 314,
                 "Visible": true,
-                "X": 37,
-                "Y": 543,
-                "RelativeX": 37,
-                "RelativeY": 543,
+                "X": 36,
+                "Y": 531,
+                "RelativeX": 36,
+                "RelativeY": 531,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 8, 36, 1)",
@@ -159,7 +189,7 @@
                 },
                 "ParentId": "6d174260-2c0b-4ab7-8a2a-810d267e1247",
                 "position": "absolute",
-                "edgeOffsets": 543,
+                "edgeOffsets": 531.9999999999999,
                 "children": ""
             },
             "children": [],
